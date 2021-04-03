@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #222831;
 }
 
 /*Top-bar style (logo, menu, buttons)*/
@@ -124,6 +125,10 @@ textarea {
     background-color: #222831;
 }
 
+#output {
+    background-color: white;
+}
+
 iframe {
     margin: 0px;
     border: none;
@@ -155,5 +160,5 @@ iframe {
     font-weight: 600;
     font-size: 80px;
     text-align: center;
-    color: #EEEEEE;
+    color: #e8505b;
 }
