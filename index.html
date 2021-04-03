@@ -1,0 +1,42 @@
+<!doctype HTML>
+<html>
+    <head>
+	<title>Code Player</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    </head>
+    <body>
+	<div id="top-bar">
+	    <div id="logo">Code Player</div>
+	    <div id="menu">
+		<button class="button" id="buttonHTML">HTML</button>
+		<button class="button" id="buttonCSS">CSS</button>
+		<button class="button" id="buttonJS">JavaScript</button>
+		<button class="button" id="buttonOutput">Output</button>
+	    </div>
+	</div>
+	<div class="container">
+	    <div class="column" id="codeHTML">
+		<p>HTML:</p>
+		<textarea></textarea>
+	    </div>
+	    <div class="column" id="codeCSS">
+		<p>CSS:</p>
+		<textarea></textarea>
+	    </div>
+	    <div class="column" id="codeJS">
+		<p>JavaScript:</p>
+		<textarea></textarea>
+	    </div>
+	    <iframe class="column" id="output"></iframe>
+	    <span id="landing-text">Code Player</span>
+	</div>
+	<div id="bottom-bar">
+	    Inspired by Bob Percival's 'Complete Web Developer Course 2.0' project and jsbin.com
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
